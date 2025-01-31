@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tours & Volunteering - EcoSphere</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin="" />
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="./images/logo.png" alt="">
+                <a href="./index.html">EcoSphere</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./tours.html">Tours</a></li>
+                <li><a href="./workshop.html">Workshops</a></li>
+                <li><a href="./sustainable.html">Sustainable Living</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="hero-section tours-hero-section">
+        <div class="tours-hero-section-content">
+            <h1>Experience EcoSphere</h1>
+            <p>Discover the magic of sustainable urban farming and connect with our rescued animals through our
+                immersive
+                tours and volunteer programs.</p>
+            <video nocontrols autoplay muted>
+                <source src="./videos/tour vid .mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <div class="backdrop"></div>
+    </div>
+
+    <section>
+        <div class="tour-options">
+            <div class="tour-card">
+                <h2>Guided Farm Tours</h2>
+                <img src="./images/tours/guided-tours.jpg" alt="">
+                <!-- <h3>Sustainable Systems Tour</h3> -->
+                <ul>
+                    <li>90-minute exploration</li>
+                    <li>Available Tue-Sat, 10 AM & 2 PM</li>
+                    <li>$25 adult, $15 children (5-12)</li>
+                </ul>
+            </div>
+
+            <div class="tour-card">
+                <h2>Volunteer opportunities</h2>
+                <img src="./images/tours/sanctuary.jpg" alt="">
+                <!-- <h3>Volunteer opportunities dannah</h3> -->
+                <ul>
+                    <li>Plant Care Program</li>
+                    <li>Hydroponic system maintenance</li>
+                    <li>Seasonal planting and harvesting</li>
+                    <li>Produce processing and packaging</li>
+                    <li>Minimum commitment: 4 hours weekly</li>
+                    <li>Price $23, $15 children (5-12)</li>
+                </ul>
+            </div>
+
+            <div class="tour-card">
+                <h2>Animal care team</h2>
+                <img src="./images/tours/animal-care.jpg" alt="">
+                <!-- <h3>Animal Care Team</h3> -->
+                <ul>
+                    <li>Feeding and basic care assistance</li>
+                    <li>Coop and pen maintenance</li>
+                    <li>Animal socialization</li>
+                    <li>Minimum commitment: 6 hours weekly</li>
+                    <li>Price $30, $18 children, (5-12)</li>
+                </ul>
+            </div>
+        </div>
+        <div class="register-section">
+            <h3>Regiter with us now.</h3>
+            <a class="btn-register" href="#">Register</a>
+        </div>
+    </section>
+
+    <section>
+        <div class="map-area">
+            <div class="left">
+                <h1>Where am I?</h1>
+                <button id="find">Find me</button>
+            </div>
+
+            <div class="right">
+                <div id="map"></div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2025 - Ecosphere, All Rights Reserved. Designed and Developed by Yudara Gunawardhana - CB011400.</p>
+            <nav class="footer-nav">
+                <a href="./index.html">Home</a> | 
+            <a href="./tours.html">Tours</a> | 
+            <a href="./workshop.html">Workshops</a> | 
+            <li><a href="./sustainable.html">Sustainable Living</a></li> | 
+            <a href="./contact.html">Contact</a>
+            </nav>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js" integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
